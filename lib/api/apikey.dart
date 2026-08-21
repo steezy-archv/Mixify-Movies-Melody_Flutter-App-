@@ -1,2 +1,1 @@
-
-String apikey ="3f0b25ca827aeb2b91468e83e1ae4a0f";
+const String apikey = String.fromEnvironment('TMDB_API_KEY');

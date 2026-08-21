@@ -1,5 +1,5 @@
 class Constants{
-  static const apiKey = '3f0b25ca827aeb2b91468e83e1ae4a0f';
+  static const apiKey = String.fromEnvironment('TMDB_API_KEY');
   static const imagePath = 'https://image.tmdb.org/t/p/w500';
 }
 
